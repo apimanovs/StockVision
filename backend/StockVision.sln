@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36327.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockVision.Host", "host\StockVision.Host.csproj", "{760E05AB-0592-E97B-C17A-7F524030E4D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "host", "host", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "modules", "modules", "{3D1AF1E2-47EB-465F-BC40-FB977E2C818B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockVision.Data.API", "StockVision.Data.API\StockVision.Data.API.csproj", "{3ED29388-4CC5-4846-A4C4-EA0173B23FB0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{22A4868E-303F-490B-A9EF-1BC65B41442F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{760E05AB-0592-E97B-C17A-7F524030E4D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{760E05AB-0592-E97B-C17A-7F524030E4D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{760E05AB-0592-E97B-C17A-7F524030E4D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{760E05AB-0592-E97B-C17A-7F524030E4D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ED29388-4CC5-4846-A4C4-EA0173B23FB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ED29388-4CC5-4846-A4C4-EA0173B23FB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ED29388-4CC5-4846-A4C4-EA0173B23FB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ED29388-4CC5-4846-A4C4-EA0173B23FB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{760E05AB-0592-E97B-C17A-7F524030E4D0} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{3ED29388-4CC5-4846-A4C4-EA0173B23FB0} = {22A4868E-303F-490B-A9EF-1BC65B41442F}
+		{22A4868E-303F-490B-A9EF-1BC65B41442F} = {3D1AF1E2-47EB-465F-BC40-FB977E2C818B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D287D571-9492-487A-B2F9-FDD485064884}
+	EndGlobalSection
+EndGlobal
